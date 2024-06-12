@@ -1,7 +1,14 @@
 import React from "react";
+import Banner from "./Banner/Banner";
+import JobSection from "./JobSection/JobSection";
 
 const Home = () => {
-  return <div>this is home page</div>;
+  return (
+    <div>
+      <Banner />
+      <JobSection />
+    </div>
+  );
 };
 
 export default Home;
